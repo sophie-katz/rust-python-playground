@@ -26,6 +26,8 @@ This is me just trying out different things with integrating Rust and Python.
 * [Python module written in Rust](./rust-python-module/)
 * [Calling Python from within Rust code](./python-from-rust)
 
+See the [PyO3 user guide](https://pyo3.rs/v0.20.0/getting_started) for more information.
+
 ## Setup
 
 Install both Rust (at least stable) and Python (at least 3.7). And set this environment variable to make sure that Python will work with shared libraries:
