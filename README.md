@@ -25,3 +25,17 @@ This is me just trying out different things with integrating Rust and Python.
 
 * [Python module written in Rust](./rust-python-module/)
 * [Calling Python from within Rust code](./python-from-rust)
+
+## Setup
+
+Install both Rust (at least stable) and Python (at least 3.7). And set this environment variable to make sure that Python will work with shared libraries:
+
+```shell
+PYTHON_CONFIGURE_OPTS="--enable-shared"
+```
+
+Install Maturin:
+
+```shell
+pip3 install maturin
+```
