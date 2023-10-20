@@ -20,3 +20,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 
 # Calling Python from within Rust code
+
+Just run:
+
+```shell
+cargo run
+```
